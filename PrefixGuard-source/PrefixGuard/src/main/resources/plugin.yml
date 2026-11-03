@@ -1,0 +1,6 @@
+name: PrefixGuard
+version: '1.0.0'
+main: id.dawsmp.prefixguard.PrefixGuard
+api-version: '1.21'
+description: Menolak pemain Java non-Floodgate yang memakai awalan nama Bedrock.
+softdepend: [floodgate]

@@ -1,0 +1,12 @@
+# PrefixGuard
+# Pemain Java cracked tidak boleh memakai nama berawalan Floodgate,
+# karena auto-login Bedrock bisa membuat nama itu bentrok dengan akun lain.
+
+# Harus SAMA dengan 'username-prefix' di plugins/floodgate/config.yml
+prefix: "."
+
+# Pesan yang dilihat pemain yang ditolak. %prefix% diganti dengan awalan di atas.
+kick-message: "Nama yang diawali '%prefix%' hanya untuk pemain Bedrock. Silakan pakai nama lain."
+
+# Catat percobaan yang ditolak di log server.
+log-blocked: true
